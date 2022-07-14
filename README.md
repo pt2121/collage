@@ -17,6 +17,20 @@ Big thanks to the Data2Viz team and folks who build the Compose graphics vector 
 
 ![avengersChords](https://raw.githubusercontent.com/pt2121/collage/main/assets/avengersChords.png)
 
+## Usage
+
+Snapshots are available in Sonatype's s01 snapshots repository.
+
+```
+   repositories {
+      google()
+      mavenCentral()
+      maven { url 'https://s01.oss.sonatype.org/content/repositories/snapshots/' } // for snapshots
+   }
+
+   implementation "io.github.pt2121:collage:0.1.0-SNAPSHOT"
+```
+
 ## License
 
     Copyright 2022 Prat Tana
